@@ -5,9 +5,9 @@
 
 ## 使用教程
 
-1. 使用`Aide Pro`或`Aide`构建项目，或者前往[Releases](./releases)下载`classes.dex`
+1. 使用`Aide Pro`或`Aide`构建项目，或者前往[Releases](https://github.com/thsc441/FtpServer-Dex/releases/latest)下载`classes.dex`
     > 使用`Aide Pro`或`Aide`构建出的需要进行处理[处理方法](### 处理方法)
-2. 因为ftpserver-core需要读取资源，所有前往[Releases](./releases)下载`resource.zip`
+2. 因为ftpserver-core需要读取资源，所有前往[Releases](https://github.com/thsc441/FtpServer-Dex/releases/latest)下载`resource.zip`
 3. 将你的`dex`文件和`resource.zip`保存在同一路径下
 4. 使用以下命令启动
 ```bash
