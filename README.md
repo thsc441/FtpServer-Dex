@@ -5,9 +5,9 @@
 
 ## 使用教程
 
-1. 使用`Aide Pro`或`Aide`构建项目，或者前往[Releases](./Releases)下载`classes.dex`
+1. 使用`Aide Pro`或`Aide`构建项目，或者前往[Releases](./releases)下载`classes.dex`
     > 使用`Aide Pro`或`Aide`构建出的需要进行处理[处理方法](### 处理方法)
-2. 因为ftpserver-core需要读取资源，所有前往[Releases](./Releases)下载`resource.zip`
+2. 因为ftpserver-core需要读取资源，所有前往[Releases](./releases)下载`resource.zip`
 3. 将你的`dex`文件和`resource.zip`保存在同一路径下
 4. 使用以下命令启动
 ```bash
@@ -24,3 +24,5 @@ dalvikvm -cp 你的dex路径 Main
 目前强制显示`.`开头隐藏文件，绑定`17021`，资源文件名称`resource.zip`，使用`anonymous`匿名用户（无需密码，高危），HOME目录为根目录，自行按需修改代码
  
 可能有些文件管理器（例如mt）会显示出文件权限为`000`，实际上并不是这样，我也不知道怎么回事
+
+添加了一个自定义Ftp命令`STOPSERVER`，需要使用`nc`连接服务器，手动登录通过后输入`STOPSERVER`即可停止服务器
